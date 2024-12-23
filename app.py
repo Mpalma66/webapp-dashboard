@@ -1,10 +1,9 @@
-import pandas as pd
 import plotly.express as px
 import streamlit as st
 import requests
 
-# URL del archivo CSV (Google Drive o Dropbox)
-csv_url = 'https://drive.google.com/file/d/1ZRPsX_IogWxUSJnK6sYpdFkRCcp4kP8a/view?usp=sharingID'
+# URL de Google Drive (cambia esto por tu enlace)
+csv_url = ' https://drive.google.com/uc?1ZRPsX_IogWxUSJnK6sYpdFkRCcp4kP8a =1aBcDeFgHiJkLmNoPQRsTuVWxYZ12345
 
 @st.cache
 def load_data(url):
